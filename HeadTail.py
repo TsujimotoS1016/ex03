@@ -17,7 +17,7 @@ for i in range(0,3):
     print('round',i+1,':',value)
 print('Heads:',Head,'Tails:',Tail) 
 if Head > Tail:
-    victory = 'You won'
+    victory = name + ' won!'
 else:
-    victory = 'You lost'
+    victory = name +  ' lost!'
 print(victory)
